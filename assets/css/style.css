@@ -15,7 +15,7 @@ p {
 }
 
 /* Header color & font */
-
+/* Changed .header into <header> for semantics */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,14 +24,14 @@ header {
 }
 
 /*horiseon font size & positioning*/
-
+/* Changed .header h1 into h1 for semantics */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /*SEO highlighting in horiseon h1*/
-
+/* Changed .header h1 .seo into h1 .seo for semantics */
 h1 .seo {
     color: #d9dcd6;
     border: none;
@@ -39,7 +39,7 @@ h1 .seo {
 }
 
 /*Navigation bar, font position*/
-
+/* Changed .header div into <nav> for semantics */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,14 +49,14 @@ nav {
 }
 
 /*header nav positioning*/
-
+/* Removed .header div ul to remove redundancy for simplicity */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
 /*Anchor for nav*/
-
+/* Added padding to <a> to replace unnecessary <li> used as padding */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -65,19 +65,19 @@ a {
 }
 
 /*hover state for nav bar*/
-
+/* Added a:hover for semantics*/
 a:hover {
     text-decoration: underline;
 }
 
 /* Body of html color */
-
+/* Moved Body under <header> in css to keep things orderly */
 body {
     background-color: #d9dcd6;
 }
 
 /*Sets positioning image in the backdrop*/
-
+/* Renamed .hero to backdrop-img for better description of class */
 .backdrop-img {
     height: 800px;
     width: 100%;
@@ -88,14 +88,15 @@ body {
 }
 
 /* image optimization */
-
+/* added for further optimization */
 img {
     image-rendering: optimizeSpeed;
     image-resolution: 72dpi;
 }
 
 /* Main of html */
-
+/* Changed .content into <main> for semantics */
+/* Moved main under body in css to keep things orderly */
 main {
     width: 75%;
     display: inline-block;
@@ -119,7 +120,7 @@ main {
 }
 
 /*color,sizing,font,background-color for Search, Online & Social sections*/
-
+/* Grouped redundant .online-reputation-management, .social-media-marketing, .search-engine-optimization into .social */
 .social {
     margin-bottom: 20px;
     padding: 50px;
@@ -129,21 +130,21 @@ main {
     color: #ffffff;
 }
 
-/*img that are childs to social sizing*/
+/*sizing for img that are child to social*/
 
 .social img {
     max-height: 200px;
 }
 
 /*titles for sections*/
-
+/* Changed & grouped redundant .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 into <h2> for semantics */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* Aside positioning, color, font */
-
+/* Changed .benefits into <aside> for semantics */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -155,8 +156,8 @@ aside {
     background-color: #2589bd;
 }
 
-/* positioning for text inside */
-
+/* positioning for text*/
+/* Changed & grouped redundant .benefit-brand h3, .benefit-cost h3, .benefit-lead h3 into <h3> for simplicity */
 h3 {
     margin-bottom: 20px;
     text-align: center;
@@ -164,7 +165,7 @@ h3 {
 }
 
 /* sizing for img child of aside */
-
+/* Grouped redundant .benefit-lead img, .benefit-brand img, .benefit-cost img into .aside img for simplicity */
 aside img {
     display: block;
     margin: 10px auto;
@@ -172,7 +173,7 @@ aside img {
 }
 
 /* alignment, font of the footer */
-
+/* Changed .footer into footer for semantics */
 footer {
     padding: 30px;
     clear: both;
@@ -181,13 +182,13 @@ footer {
 }
 
 /*footer font size*/
-
+/* Changed .footer h2 into footer h4 for semantics & numerical order on html */
 footer h4 {
     font-size: 20px;
 }
 
 /*footer text color*/
-
+/* added footer p style to remove unnecessary class */
 footer p {
     color: black;
 }
