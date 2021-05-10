@@ -26,7 +26,6 @@ CSS Changes
 - [CSSHeader](#CSSHeader)
 - [CSSBody](#CSSBody)
 - [CSSMain](#CSSMain)
-- [CSSSection](#CSSSection)
 - [CSSAside](#CSSAside)
 - [CSSFooter](#CSSFooter)
 
