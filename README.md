@@ -72,4 +72,4 @@
 ### Optimization:
 
 * Added `img { image-rendering: optimizeSpeed; image-resolution: 72dpi; }` in attempt to help images load quicker
->Note: Didn't find a way to optimize images very well without modifying the image file. I don't think im allowed to do that so I made no attempt using third-party applications on the images to reduce file size.
+>Note: Did not find a way to optimize images very well without modifying the image file. I don't think im allowed to do that so I made no attempt using third-party applications on the images to reduce file size.
