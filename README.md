@@ -1,13 +1,15 @@
 <h1 style="text-align: center;">Horiseon Social Solution Services</h1>
 
-[Deployed Link](https://jdogcrane.github.io/work1/)
+[[Deployed-Site]](https://jdogcrane.github.io/work1/)
 
-[Site-Preview](#Site-Preview)
+[[Site-Preview]](#Site-Preview)
 
-## Table of Contents
+## General overview: 
+ ```
+ Code has been refactored and search engine optimized. Streamlined and simplified into a logical structure with better semantics. Webpage meets accessibility standards. When you view the source code you will find semantic HTML elements. Elements follow a logical structure independent of styling and positioning. Alt attributes are now present. Heading attributes fall in sequential order. The title element has a concise and descriptive title. 
+ ```
 
-### General overview: 
- Code has been refactored and search engine optimized. Streamlined and simplified into a logical structure with better semantics.
+## Table of Contents:
 
 HTML Changes
 - [Head](#Head)
@@ -91,7 +93,7 @@ CSS Changes
 
 ### CSSFooter:
 * Changed `.footer` into `footer` for semantics
-* Changed `.footer h2` into `footer h2` for semantics & numerical order on html
+* Changed `.footer h2` into `footer h4` for semantics & numerical order on html
 * Removed unnecessary class targeting text in aside/footer
 
 ### CSSOptimization:
