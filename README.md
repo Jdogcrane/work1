@@ -5,9 +5,11 @@
 [[Site-Preview]](#Site-Preview)
 
 ## General overview: 
- ```
- Code has been refactored and search engine optimized. Streamlined and simplified into a logical structure with better semantics. Webpage meets accessibility standards. When you view the source code you will find semantic HTML elements. Elements follow a logical structure independent of styling and positioning. Alt attributes are now present. Heading attributes fall in sequential order. The title element has a concise and descriptive title. 
- ```
+
+<p style="font-family:georgia"> 
+Code has been refactored and search engine optimized. Streamlined and simplified into a logical structure with better semantics. Webpage meets accessibility standards. When you view the source code you will find semantic HTML elements. Elements follow a logical structure independent of styling and positioning. Alt attributes are now present. Heading attributes fall in sequential order. The title element has a concise and descriptive title. 
+<p>
+
 
 ## Table of Contents:
 
