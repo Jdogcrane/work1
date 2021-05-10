@@ -1,5 +1,7 @@
 <h2 style="text-align: center;">Change Log</h2>
+
 >Site Link: https://jdogcrane.github.io/work1/
+
 ### General overview: 
  Code has been refactored and search engine optimized. Streamlined and simplified into a logical structure with better semantics.
 
