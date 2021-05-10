@@ -1,9 +1,30 @@
-<h2 style="text-align: center;">Change Log</h2>
+<h1 style="text-align: center;">Horiseon Social Solution Services</h1>
 
->Site Link: https://jdogcrane.github.io/work1/
->(pic of site is at the bottom)
+[Deployed Link](https://jdogcrane.github.io/work1/)
+
+[Site-Preview](#Site-Preview)
+
+## Table of Contents
+
 ### General overview: 
  Code has been refactored and search engine optimized. Streamlined and simplified into a logical structure with better semantics.
+
+HTML Changes
+- [Head](#Head)
+- [Header](#Head)
+- [Body](#Body)
+- [Main](#Main)
+- [Section](#Section)
+- [Aside](#Aside)
+- [Footer](#Footer)
+
+CSS Changes
+- [CSSHeader](#CSSHeader)
+- [CSSBody](#CSSBody)
+- [CSSMain](#CSSMain)
+- [CSSSection](#CSSSection)
+- [CSSAside](#CSSAside)
+- [CSSFooter](#CSSFooter)
 
 ---
 <h3 style="text-align:center;">HTML-Changes</h3>
@@ -16,7 +37,9 @@
 * Replaced div with `<header>` for semantics
 * Changed `<div>` into `<nav>` for semantics
 * Removed `<li>` elements and simplified their function into `<a>`
-* Fixed Search Engine Optimization Hyper Link
+* Fixed Search Engine Optimization anchor Link
+* Changed `<span>` into `<abbr>` for semantics
+* Added `a:hover` for better functionality
 
 ### Body:
 * Changed `<div>` into `<img>` to represent class more specifically
@@ -41,7 +64,7 @@
 <h3 style="text-align:center;">CSS-Changes</h3>
 
 ---
-### Header:
+### CSSHeader:
 * Changed `.header` into `<header>` for semantics
 * Changed `.header h1` into `h1` for semantics
 * Changed `.header h1 .seo` into `h1 .seo` for semantics
@@ -49,15 +72,15 @@
 * Removed `.header div ul` to remove redundancy for simplicity
 * Added padding to `<a>` to replace unnecessary `<li>` used as padding
 
-### Body:
+### CSSBody:
 * Moved `Body` under `<header>` in css to keep things orderly
 * Renamed `.hero` to `backdrop-img` for better description of class
 
-### Main:
+### CSSMain:
 * Changed `.content` into `<main>` for semantics
 * Moved `main` under `body` in css to keep things orderly
 
-### Aside:
+### CSSAside:
 * Changed `.benefits` into `<aside>` for semantics
 * Changed & grouped redundant `.benefit-brand h3`, `.benefit-cost h3`, `.benefit-lead h3` into `<h3>` for simplicity
 * Grouped redundant `.benefit-lead`, `.benefit-brand`, `.benefit-cost` into `benefit-brand` for simplicity
@@ -66,14 +89,15 @@
 * Grouped redundant `.online-reputation-management img`, `.social-media-marketing img`, `.search-engine-optimization img` into `.social img` for simplicity
 * Changed & grouped redundant `.search-engine-optimization h2`, `.online-reputation-management h2`, `.social-media-marketing h2` into `<h2>` for semantics
 
-### Footer:
+### CSSFooter:
 * Changed `.footer` into `footer` for semantics
 * Changed `.footer h2` into `footer h2` for semantics & numerical order on html
 * Removed unnecessary class targeting text in aside/footer
 
-### Optimization:
+### CSSOptimization:
 
 * Added `img { image-rendering: optimizeSpeed; image-resolution: 72dpi; }` in attempt to help images load quicker
->Note: I Did not find a way to optimize images very well without modifying the image file. I don't think im allowed to do that so I made no attempt using third-party applications on the images to reduce file size.
+>Note: During class on monday 5/10/21 anthony went over resizing, so I did that as well.
 
-![image_url](https://cdn.discordapp.com/attachments/709148993262977068/841119274961207306/mysite.jpg "a title")
+# Site Preview
+![image_url](https://cdn.discordapp.com/attachments/709148993262977068/841119274961207306/mysite.jpg "Site preview")

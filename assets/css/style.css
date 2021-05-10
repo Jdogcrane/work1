@@ -14,7 +14,7 @@ p {
     color: #ffffff
 }
 
-/* All header classes and elements */
+/* Header color & font */
 
 header {
     padding: 20px;
@@ -34,9 +34,11 @@ h1 {
 
 h1 .seo {
     color: #d9dcd6;
+    border: none;
+    text-decoration: none;
 }
 
-/*Navigation bar and position*/
+/*Navigation bar, font position*/
 
 nav {
     padding-top: 15px;
@@ -59,6 +61,13 @@ a {
     color: #ffffff;
     text-decoration: none;
     padding-left: 24px;
+    
+}
+
+/*hover state for nav bar*/
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Body of html color */
