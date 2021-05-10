@@ -1,32 +1,44 @@
+/* Universal structure */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
+/*font and padding for texts*/
+
+p {
+    font-size: 16px;
+    padding-bottom: 24px;
+    color: #ffffff
 }
-/* changed "header" from class into element  */
+
+/* All header classes and elements */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/* changed "header" from class into element  */
-header h1 {
+
+/*horiseon font size & positioning*/
+
+h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* changed "header" from class into element  */
-header h1 .seo {
+
+/*SEO highlighting in horiseon h1*/
+
+h1 .seo {
     color: #d9dcd6;
 }
 
-/* changed "header" from class into element  */
-/* changed div into nav element  */
-header nav {
+/*Navigation bar and position*/
+
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,28 +46,30 @@ header nav {
     font-size: 20px;
 }
 
-/* changed "header" from class into element  */
-header div ul {
-    list-style-type: none;
-}
+/*header nav positioning*/
 
-/* changed "header" from class into element  */
-/* changed nav into element  */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Anchor for nav*/
+
 a {
     color: #ffffff;
     text-decoration: none;
+    padding-left: 24px;
 }
 
-p {
-    font-size: 16px;
+/* Body of html color */
+
+body {
+    background-color: #d9dcd6;
 }
 
-.hero {
+/*Sets positioning image in the backdrop*/
+
+.backdrop-img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -64,6 +78,23 @@ p {
     background-position: center;
 }
 
+/* image optimization */
+
+img {
+    image-rendering: optimizeSpeed;
+    image-resolution: 72dpi;
+}
+
+/* Main of html */
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*positions sections from left*/
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,16 +102,38 @@ p {
     height: 200px;
 }
 
+/*positions section from right*/
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/*color,sizing,font,background-color for Search, Online & Social sections*/
+
+.social {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
+
+/*img that are childs to social sizing*/
+
+.social img {
+    max-height: 200px;
+}
+
+/*titles for sections*/
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Aside positioning, color, font */
 
 aside {
     margin-right: 20px;
@@ -93,63 +146,39 @@ aside {
     background-color: #2589bd;
 }
 
-/* grouped these classes and removed redundant classes */
-.benefit-brand{
-    margin-bottom: 32px;
+/* positioning for text inside */
+
+h3 {
+    margin-bottom: 20px;
+    text-align: center;
     color: #ffffff;
 }
 
-/* grouped these classes and removed redundant classes */
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+/* sizing for img child of aside */
 
-/* grouped these classes*/
-.benefit-brand img {
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* grouped these classes and removed redundant classes */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* alignment, font of the footer */
 
-/* grouped these classes*/
-.online-reputation-management img,
-.social-media-marketing img,
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-/* grouped these classes*/
-.social-media-marketing h2,
-.online-reputation-management h2,
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* changed footer class into just element footer for simplicity*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/* changed footer class into just element footer for simplicity*/
-/*Changed h2 into h4 for numerical order*/
+
+/*footer font size*/
+
 footer h4 {
     font-size: 20px;
 }
-img {
-    image-rendering: auto;
-    image-resolution: auto;
-    size: 22px;
-  }
+
+/*footer text color*/
+
+footer p {
+    color: black;
+}
