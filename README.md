@@ -1,7 +1,7 @@
 <h2 style="text-align: center;">Change Log</h2>
 
 >Site Link: https://jdogcrane.github.io/work1/
-
+>(pic of site is at the bottom)
 ### General overview: 
  Code has been refactored and search engine optimized. Streamlined and simplified into a logical structure with better semantics.
 
@@ -74,4 +74,6 @@
 ### Optimization:
 
 * Added `img { image-rendering: optimizeSpeed; image-resolution: 72dpi; }` in attempt to help images load quicker
->Note: Did not find a way to optimize images very well without modifying the image file. I don't think im allowed to do that so I made no attempt using third-party applications on the images to reduce file size.
+>Note: I Did not find a way to optimize images very well without modifying the image file. I don't think im allowed to do that so I made no attempt using third-party applications on the images to reduce file size.
+
+![image_url](https://cdn.discordapp.com/attachments/709148993262977068/841119274961207306/mysite.jpg "a title")
